@@ -27,6 +27,7 @@ app.use('/api/v1/transactions', require('./routes/transactionRoute'));
 
 app.get("/", (req, res) => {
     console.log("Hello world")
+    res.send("Hello world");
 });
 
 app.listen(PORT, () => {
