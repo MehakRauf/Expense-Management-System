@@ -25,6 +25,10 @@ const PORT = 8080 || process.env.PORT;
 app.use('/api/v1/users', require('./routes/userRoute'));
 app.use('/api/v1/transactions', require('./routes/transactionRoute'));
 
+app.get("/",()=>{
+    console.log("Hello world")
+})
+
 app.listen(PORT, () => {
     console.log("App is listening!");
 });
