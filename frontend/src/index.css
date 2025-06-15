@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  height: 80vh;
+}
+
+.register-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  box-shadow: 0 0 3px gray;
+}
+
+.anticon svg {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.active-icon {
+  color: blue;
+}
+
+.inactive-icon {
+  color: gray;
+}
+
+.switch-container {
+  border: 2px solid rgba(84, 84, 241, 0.677);
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.img-container img {
+  width: 250px;
+  height: 400px;
+}
+
+.ant-modal-title {
+  color: #0d6efd !important;
+  font-weight: bold;
+  font-size: 30px !important;
+  text-align: center;
+}
+
+.ant-form-item-label>label {
+  color: #0d6efd !important;
+  font-weight: 400;
+}
+
+.table-container {
+  text-transform: uppercase;
+}
+
+.table-container .ant-table-thead>tr>th {
+  background-color: #0d6efd;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.custom-table .ant-table-tbody>tr>td {
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.custom-table .ant-table-tbody>tr:hover>td {
+  background-color: #e3f2fd;
+}
